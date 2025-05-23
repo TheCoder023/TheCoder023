@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    text-align: center;
+    font-family: Impact;
+ 
+
+  background: -webkit-linear-gradient(to left top, blue, red);
+  background: -moz-linear-gradient(to left top, blue, red);
+  background: -ms-linear-gradient(to left top, blue, red);
+  background: -o-linear-gradient(to left top, blue, red);
+  background: linear-gradient(to left top, blue, red);
+    
+  background-size: cover;
+  background: 70bg32;
+    background-repeat: no-repeat;
+}
+#clickBtn, #boughtBtn {
+    font-size: 5em;
+    background-color: hsl(0, 58%, 64%);
+    border-radius: 25px;
+    transition: .25 seconds;
+}
+#clickBtn:hover {
+    background-color: hsl(0, 67%, 56%);
+    cursor: pointer;
+}
+#boughtBtn:hover {
+    background-color: hsl(0, 67%, 56%);
+    cursor: pointer;
+}
+#label1 {
+    font-size: 15em;
+}
+#costLbl {
+    font-size: 2.5em;
+}
