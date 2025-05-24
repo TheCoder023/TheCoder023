@@ -24,6 +24,9 @@ body {
     border-radius: 25px;
     transition: .25 seconds;
 }
+#boughtBtn {
+    float: right;
+}
 #clickBtn:hover {
     background-color: hsl(0, 67%, 56%);
     cursor: pointer;
@@ -31,7 +34,6 @@ body {
 #boughtBtn:hover {
     background-color: hsl(0, 67%, 56%);
     cursor: pointer;
-    flaot: right;
 }
 #label1 {
     font-size: 15em;
